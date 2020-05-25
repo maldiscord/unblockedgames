@@ -24,11 +24,14 @@ a {
 
 .games {
     border-radius: 70px;
+    padding-left: 15px;
+    padding-top: 15px;
+
 }
 
 .gamebanner {
     width: -webkit-fill-available;
-    height: 300px;
+    height: 450px;
 }
 
 .container {
@@ -87,13 +90,12 @@ html {
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color: #2b2929;
     text-align: center;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+    box-shadow: 0 0 20px rgba(0,0,0,1);
   }
 
 li a {
-    color: orange;
+    color: white;
     padding: 8px 60px;
     margin: 0;
     /* float: inherit; */
@@ -113,6 +115,18 @@ li a {
     border: 0
 }
 
+.quakebackground {
+    background-image: url("../img/quake2.jpg");
+    padding: 100px 0 110px;
+    position: relative;
+    padding: 50px 0 110px;
+    border: 0
+}
+
+.game {
+    box-shadow: 0px 0px 5px #fff;
+}
+
 ol {
     color: red;
 }
@@ -125,6 +139,19 @@ ol {
     border-radius: 20px;
     
 }
+
+.button:hover {
+    -webkit-box-shadow: -1px 1px 9px 0px rgba(255,255,255,0.56);
+    -moz-box-shadow: -1px 1px 9px 0px rgba(255,255,255,0.56);
+    box-shadow: -1px 1px 9px 0px rgba(255,255,255,0.56);
+}
+
+/* to make it easier to read */
+
+.textshadow {
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 1);
+}
+
 /* Code examples */
 
 /* CSS made by Razorr */
